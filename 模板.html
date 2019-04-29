@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>   
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <span class="iconfont">&#xe64d;</span>
+            <h2>Woman,Dresses</h2>
+            <div class="fr gwc">
+            <span class='iconfont'>&#xe601;</span>
+            <span class="san">3</span>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="wishlist"><p>ADD TO WISHLIST</p></div>
+            <div class="cart"><p>ADD TO CART</p></div>
+        </div>
+    </div>
+    <div class="bodyer">
+        <div class="product">
+            <div class="bar">
+                <img src="images/pr1.jpg" alt="">
+                <ul>
+                    <li class="active"><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="pro-b">
+                <h2>Elegant Pink Dresses</h2>
+                <div class="price"><p>$605,00</p></div>
+            </div>
+        </div>
+        <div class="des">
+            <p><span class="iconfont">&#xe600;</span>Description</p>
+        </div>
+        <div class="sizing">
+            <div class="siz-t">
+                <p>Colour:</p>
+                <p class="colour">Choose a colour for item</p>
+                <div class="color">
+                    <div class="pink"></div>
+                    <div class="red"></div>
+                    <div class="blue"></div>
+                </div>
+            </div>
+            <div class="siz-b">
+                <p><span class="iconfont" style="margin-right:19px;">&#xe617;</span>Size:</p>
+                <p class="size">Size available for this item</p>
+                <ul>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">12</a></li>
+                    <li><a href="#" style="margin-right:0px;">14</a></li>
+                </ul>
+            </div>
+        </div>  
+        <div class="box">
+            <p>Add to Cart</p>
+        </div>
+        <div class="share">
+            <h3>SHARE ON<span></span></h3>
+            <ul>
+                <li>
+                    <div>
+                        <div class="twitter">
+                            <span class="iconfont" style="color:#fff;">&#xe653;</span>
+                        </div>
+                        <p>205</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="twitter" style="background-color:#3B63B6;">
+                            <span class="iconfont" style="color:#fff;">&#xe626;</span>
+                        </div>
+                        <p>205</p>
+                    </div>
+                </li>
+                <li style="margin=right=0px;">
+                    <div>
+                        <div class="twitter" style="background-color:#E53E59;">
+                            <span class="iconfont" style="color:#fff;">&#xe60b;</span>
+                        </div>
+                        <p>205</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
